@@ -1,0 +1,565 @@
+@charset "utf-8";
+
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 
+	padding-top:5px;
+	padding-right: 15px;
+	padding-left: 25px; 
+}
+
+
+#boxPrincipal {
+	height:auto;
+	max-height:3865px;
+	min-height:1265px;
+	width: 93%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width:1100px;
+	min-width:1100px;
+	margin-bottom: 0px;
+	background:url(../imagens/background_principal.png) repeat #46607b;
+        border-left:#033 solid 1px;
+	border-right:#033 solid 1px;
+
+}
+
+/*CONTROLA CONTEINER DE PRATICAMENTE TODO SITE, MENOS O RODAPÉ 
+#boxPrincipal {
+	height:auto;
+	max-height:3865px;
+	min-height:1265px;
+	width: 93%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width:1100px;
+	min-width:1100px;
+	margin-bottom: 0px;
+	background-repeat: repeat;
+	background-image:url(../imagens/background_principal.jpg);
+        border-left:#033 solid 1px;
+	border-right:#033 solid 1px;
+     
+}*/
+/* #46607b ################################################################################*/
+/*################################################################################*/
+/*MENU NAVEGAÇÃO LATERAL*/
+
+#boxMenuNav #menuLateral {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	height: 430px;
+	padding-left:50px;
+}
+.listaMenu  {
+	list-style-type: none;
+	width:153px;
+	line-height: 0px;
+	display:inline;
+}
+
+.texto_menu_lateral {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color:#006;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-top:-2px;
+}
+/* FIM DOS CONTROLES DO MENU LATERAL*/
+/*################################################################################*/
+/*################################################################################*/
+
+/*CLASSES DIVERSAS */
+/* ########################################################## */
+
+.cabecalhoN1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #F60;
+	letter-spacing: 0px;
+	line-height: 25pt;
+}
+.cabecalhoN1Sub {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #006;
+	letter-spacing: 0px;
+	line-height: 18pt;
+	padding-left: 25px;
+}
+
+.texto_patrocinadores {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 21px;
+	color: #006;
+	paddind-top:0px;
+	margin-left: 75px;
+	font-weight:700;
+}
+
+.texto_premios {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 21px;
+	color: #006;
+	margin-top: 20px;
+	margin-left: 75px;
+	font-weight:700;
+}
+
+/*################################################################################*/
+/*################################################################################*/
+/*BOX DO RODAPÉ E CONTEÚDO DO MESMO */
+#boxRodape {
+	height: 180px;
+	width: 93%;
+	max-width:1100px;
+	min-width:1100px;
+	background:url(../imagens/fundo_rodape.png) no-repeat ;
+	clear:both;
+        margin-bottom: 0;
+	padding-top:0;
+}
+
+#rodape #boxPatrocinadores {
+	height: 2px;
+	padding-top: 17px;
+	padding-left: 20px; /*Essa margem interna controla a distãncia vertical entre o box de notícias e o box do sledeshow */
+}
+
+#rodape #boxPublicidade {
+	padding-left: 120px;
+	height: 110px;
+	padding-top: 0px;
+}
+#rodape #boxPublicidade #caixaEtep {
+	float: left;
+	width: 160px;
+}
+#rodape #boxPublicidade #caixJhonson {
+	float: left;
+	height: 80px;
+	width: 400px;
+}
+#rodape #boxPublicidade #boxMectron {
+	float: left;
+	height: 80px;
+	width: 200px;
+}
+#rodape #boxPublicidade #Calfer {
+	float: left;
+	height: 80px;
+	width: 150px;
+}
+#boxRodape #Copyright p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #006;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 500;
+}
+ /*FIM DO BOX DO RODAPÉ */
+/*################################################################################*/
+/*################################################################################*/
+/*BOX PREMIAÇÃO */
+/* Como foi feita uma inversão para o SlideShow ficar abaixo, esse box se chama menu_nagegação, mas está contendo o conteúdo das imagens de premiação */
+#boxPrincipal #box_premios #menu_navegacao {
+	height:340px;
+	width: 284px;
+	float: left;
+	background-image: url(../imagens/fd_premios.png);
+	background-repeat: no-repeat;
+	margin-top: -15px;
+}
+
+#boxPrincipal #box_premios {
+	height: 340px;
+	width: 284px;
+	float: left;
+}
+
+#boxPrincipal #box_premios #menu_navegacao #box_cont_premios {
+	margin-top: 8px;
+	margin-right: 23px;
+	margin-left: 23px;
+	height: 308px;
+	float: left;
+}
+#boxPrincipal #box_premios #menu_navegacao #box_cont_premios #texto_premios {
+	height: 30px;
+	padding-top: 0px;
+}
+
+#premios1 {
+	height: 64px;
+	margin-left: 51px;
+}
+#premios2 {
+	height: 64px;
+	margin-left: 51px;
+}
+#premios3 {
+	height: 64px;
+	margin-left: 51px;
+}
+#premios4 {
+	height: 64px;
+	margin-left: 51px;
+}
+/* FINALIZA CONTROLES DO BOX PREMIAÇÃO */
+/*################################################################################*/
+/*################################################################################*/
+/*DAQUI PARA BAIXO CONTROLA LOGOTIPO E OUTROS ÍTENS NA CAIXA TOPO */
+#boxPrincipal #topo {
+	height: 198px;
+	background-image: url(../imagens/topo_background.gif);
+}
+#boxPrincipal #topo #imagem_logo {
+	height: 198px;
+	width: 847px;
+	float: left;
+	background-image: url(../imagens/fundo_logo.png);
+	background-repeat: no-repeat;
+	background-position: 31px 0px;
+}
+#boxPrincipal #topo #imagem_logo #box_Etep {
+}
+.Posicao_txt_Etep {
+	margin-top: 45px;
+}
+#boxPrincipal #topo #imagem_logo #box_Logo {
+	float: left;
+	height: 198px;
+	width: 284px;
+}
+.controla_Logo {
+	margin-top: 0px;
+	margin-left: 88px;
+}
+#boxPrincipal #topo #imagem_logo #box_Etep {
+	float: right;
+	width: 560px;
+	height: 198px;
+}
+#boxPrincipal #topo #box_idioma {
+	float: right;
+	height: 198px;
+	width: 253px;
+}
+#boxPrincipal #topo #box_idioma #idiomas {
+	height: 36px;
+	padding-left: 80px;
+	padding-top: 8px;
+}
+#boxPrincipal #topo #box_idioma #box_logoFirstEtep {
+	height: 153px;
+}
+#box_logoFirstEtep #boxEtep {
+	float: left;
+	height: 130px;
+	width: 120px;
+	padding-top: 20px;
+}
+#box_logoFirstEtep #boxFirst {
+	float: right;
+	height: 130px;
+	width: 120px;
+	padding-top: 20px;
+}
+#menu_nav_horizontal #boxsessoes { /*box que acomoda e controla os botões de redes sociais*/
+	float: left;
+	height: 30px;
+	width: 800px;
+}
+#menu_nav_horizontal #boxredessociais {
+	float: right;
+	width: 200px;
+	height: 25px;
+	text-align: right;
+}
+/*FINALIZA CONTROLE DE CONTEÚDO DO TOPO*/
+/*################################################################################*/
+/*################################################################################*/
+/* MENU NAVEGAÇÃO HORIZONTAL ONDE ESTÁ O DROP DOWN */
+#boxPrincipal #menu_nav_horizontal {
+	height: 34px;
+	background-color: #000;
+}
+.texto_menu_nav {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: #FFF;
+	padding-left: 35px;
+	padding-top: 3px;
+}
+
+.textospan {
+	width: 170px;
+	padding-right: 70px;
+}
+/*FIM DO MENU HORIZONTAL */
+/*################################################################################*/
+/*################################################################################*/
+/*BOX QUE CONTROLA A CAIXA DAS CHAMADAS ( NOTÍCIAS ) DO SITE, ACIMA DE SLIDE SHOW */
+#boxMeio #boxChamadas #CaixaChamadaBottom {
+	height: auto;
+	clear:both;
+}
+
+#boxMeio #boxChamadas #CaixaChamadaTop {
+	height: 160px;
+	padding-top: 20px;
+	padding-right: 21px;
+	padding-left: 21px;
+}
+
+#boxChamadas #CaixaChamadaBottom {
+	height: 120px;
+	padding-top: 10px;
+	padding-right: 21px;
+	padding-left: 0px;
+}
+
+#CaixaChamadaTop #ConteudoChamada { /*CAIXA COM INFORMAÇÃO MAIS ACIMA, TEXTO DA PRIMEIRA FOTO */
+	width: 535px;
+	height: auto;
+}
+#CaixaChamadaBottom #ConteudoChamada2 {/*CAIXA COM INFORMAÇÃO MAIS ABAIXO, TEXTO DA SEGUNDA FOTO */
+	width: 535px;
+	height: auto;
+	padding-left: 21px;
+}
+.pNoticias {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #666;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.pLink a:active, .pLink a:link, .pLink a:visited{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #666;
+	line-height: 20px;
+	font-weight: 700;
+}
+
+.pLink a:hover{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color:#F60;
+	line-height: 20px;
+	font-weight: 700;
+	text-decoration:underline;
+}
+
+#CaixaChamadaTop #ConteudoChamadaFt { /* CONTÉM A PRIMEIRA FOTO */
+	float: right;
+	width: 162px;
+	height: auto;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#CaixaChamadaBottom #ConteudoChamadaFt2 { /* CONTÉM A SEGUNDA FOTO */
+	float: right;
+	width: 162px;
+	height: auto;
+	padding-top: 0px;
+	padding-left: 0px;
+	clear:both;
+}
+.imgNoticias {
+	border: 1px solid #F60;
+}
+/* FIM DO BOX CONTROLA AS CHAMADAS ACIMA DO SLIDE SHOW */
+/*################################################################################*/
+/*################################################################################*/
+/* BOX SLIDE SHOW */
+/*CLASSE ABAIXO AJUSTA A ALTURA DO MESMO */
+#boxPrincipal #boxSlideShow {
+	height: 50px;
+	width: 780px;
+	float: left;
+	margin-bottom: 15px;
+	background-color: #F00;
+}
+/* BOX QUE VAI CONTROLAR A ALTURA DO SLIDEBOX */
+.boxMeioNotP {
+	height: 310px;
+	width: 800px;
+	background-image:url(../imagens/imgmeio.png);
+	background-repeat: repeat;
+	float: right;
+	overflow: hidden;
+}
+/* BOX DO SLIDESHOW */
+/*foi feita uma inversão para descer o slide show, esse box controla Menu de Navegação*/
+#boxPrincipal #boxMenuNav {
+	height: 800px;
+	width: 284px;
+	float: left;
+	background-image: url(../imagens/fd_menu.png);
+	background-repeat: no-repeat;
+}
+#BoxMeio #boxDestaque {
+	float: right;
+	width: 100px;
+	height: 400px;
+	background-image: url(../imagens/fundo_slideshow.png);
+	background-repeat: no-repeat;
+}
+#boxMeio #boxChamadas {
+	float: right;
+	height: auto;
+	width: 800px;
+	margin-top: 0px;
+        
+}
+
+#boxPrincipal #acomodaNot {
+	height: auto;
+	background-color: #F30;
+}
+/* FIM DO COMENTÁRIO PARA SLIDE SHOW*/
+/*################################################################################*/
+/*################################################################################*/
+/* SELETORES DE APRESENTAÇÃO DOS LINKS */
+a:link, a:active, a:visited{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color:#036;
+	text-decoration: none;
+}
+/*CONTROLA O LINKS DO MENU LATERAL*/
+.menu a {
+	text-decoration:none;
+	line-height:38px;
+}
+.menu a:link, .menu a:active, .menu a:visited{
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color:#006;
+	text-decoration: none;
+}
+.menu a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color:#F60;
+	text-decoration: none;
+}
+/* CONTROLA BOX ONDE ESTÃO AS CHAMADAS */
+#boxPrincipal #BoxMeio {
+	height:auto;
+	background-color: #F00;
+	margin-bottom: 0px;
+	clear:both;
+}
+#CaixaMenu {
+	background-color: #06C;
+	width: 300px;
+	height: 400px;
+	float: left;
+}
+#boxPrincipal #boxMeio {
+	height: auto;
+}
+#MenuLateral {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color:#006;
+	text-decoration: none;
+	
+}
+/*################################################################################*/
+/*################################################################################*/
+/* BOX FLEXÍVEL */
+/*box com a imagem fixa com cantos arredondados no topo */
+#boxChamadas #topNot {
+	padding-top: 20px;
+	height: 20px;
+}
+/*CONTROLE DO BOX DE NOTÍCIAS, COM AJUSTE FLEXÍVEL NA VERTICAL*/
+.boxMeioNot {
+	height: auto;
+	width: 752px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 36px;
+	padding-bottom: 0px;
+        min-height: 425px;
+	background-image:url(../imagens/imgmeio.png);
+	background-repeat: repeat;
+	float: left;
+}
+/*box com a imagem fixa com cantos arredondados na base, fechando o box como um todo */
+.boxSupNot {
+	margin-right: auto;
+	margin-left: auto;
+	width: 776px;
+	padding-right: 12px;
+	padding-left: 12px;
+	height: 30px;
+	background-image:url(../imagens/imgtopo.png);
+	background-repeat: no-repeat;
+	float: right;
+	position: relative;
+}
+
+.boxInfNot {
+	margin-left: auto;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 800px;
+	height: 15px;
+	background-image:url(../imagens/imgbase.png);
+	float: right;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+}
+/*fim do controle para ajuste vertical automático*/
+/*BOX QUE ESTÁ CONTROLANDO O MENU ESQUERDO DE NAVEGAÇÃO DE MODO QUE AS DUAS CAIXAS NÃO SE SEPAREM QUANDO HOUVER MUITO CONTEÚDO VERTICAL*/
+#boxMeio #menuVertical {
+	height: 920px;
+	width: 295px;
+	float: left;
+	background: #000;
+}
+#menuVertical #boxPublicidadePremios {
+	background-color: #FFF;
+} /*FIM DO BOX DE CONTROLE*/
+#boxSlide {
+	float: right;
+	width: 780px;
+	height: auto;
+	margin-bottom: 15px;
+}
