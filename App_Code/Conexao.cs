@@ -27,7 +27,7 @@ public class Conexao
 
 
 
-        string configuracao = string.Format("server={0};user id={1}; password={2};database=mysql; pooling=false", "127.0.0.1", "root", "2101994");
+        string configuracao = string.Format("server={0};user id={1}; password={2};database=mysql; pooling=false", "127.0.0.1", "...", "...");
 
         //string configuracao = string.Format("server={0};userid={1};password={2};database=mysql;pooling=false", ip.Replace(',','.'), user, key);
 
